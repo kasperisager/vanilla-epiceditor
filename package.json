@@ -1,0 +1,10 @@
+{
+  "name": "vanilla-epiceditor",
+  "private": true,
+  "devDependencies": {
+    "gulp": "3.5.x",
+    "gulp-concat": "2.1.x",
+    "gulp-uglify": "0.2.x",
+    "gulp-livereload": "~1.2.0"
+  }
+}
