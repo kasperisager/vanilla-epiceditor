@@ -22,22 +22,6 @@ $PluginInfo['epiceditor'] = array(
  */
 class EpicEditorPlugin extends Gdn_Plugin
 {
-    /* Methods */
-
-    /**
-     * This will run when you "Enable" the plugin
-     *
-     * @since  1.0.0
-     * @access public
-     * @return bool
-     */
-    public function setup()
-    {
-        return true;
-    }
-
-    /* Event Handlers */
-
     public function Gdn_Form_beforeBodyBox_handler($sender)
     {
         // Make sure that Markdown is used
