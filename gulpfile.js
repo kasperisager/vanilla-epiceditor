@@ -5,7 +5,7 @@ var gulp       = require('gulp')
 
 gulp.task('concat', function () {
   gulp.src([
-    // EpicEditor core library
+    // EpicEditor library
     'bower_components/epiceditor/src/editor.js'
 
     // Editor plugin
