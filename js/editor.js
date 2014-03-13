@@ -26,7 +26,7 @@
       container : $container[0]
     , textarea  : textarea
     , autogrow  : true
-    , basePath  : '/plugins/epiceditor'
+    , basePath  : gdn.url('/plugins/epiceditor')
     , theme     : {
         base    : '/design/editor.css'
       , preview : '/design/editor-preview.css'
@@ -59,7 +59,7 @@
   };
 
   Editor.prototype.clearEditor = function (textarea) {
-    editor = $(textarea).data('editor');
+    var editor = $(textarea).data('editor');
 
     // Import an empty, non-existing file
     editor.importFile('');
