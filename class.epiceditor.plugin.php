@@ -3,7 +3,7 @@
 $PluginInfo['epiceditor'] = array(
     'Name'        => "EpicEditor",
     'Description' => "An editor plugin for Vanilla that uses EpicEditor, an embeddable JavaScript Markdown editor written by Oscar Godson.",
-    'Version'     => '1.0.1',
+    'Version'     => '1.1.0',
     'Author'      => "Kasper Kronborg Isager",
     'AuthorEmail' => 'kasperisager@gmail.com',
     'AuthorUrl'   => 'https://github.com/kasperisager',
