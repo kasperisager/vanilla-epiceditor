@@ -2,6 +2,7 @@
   "name": "vanilla-epiceditor",
   "private": true,
   "dependencies": {
-    "epiceditor": "~0.2.2"
+    "epiceditor": "0.2.2",
+    "marked": "0.3.2"
   }
 }

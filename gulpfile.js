@@ -8,6 +8,9 @@ gulp.task('concat', function () {
     // EpicEditor library
     'bower_components/epiceditor/src/editor.js'
 
+    // Marked parser
+  , 'bower_components/marked/lib/marked.js'
+
     // Editor plugin
   , 'js/editor.js'
 

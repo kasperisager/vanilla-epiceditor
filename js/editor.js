@@ -25,6 +25,7 @@
     var editor = new EpicEditor({
       container : $container[0]
     , textarea  : textarea
+    , parser    : marked
     , autogrow  : true
     , basePath  : gdn.url('/plugins/epiceditor')
     , theme     : {
