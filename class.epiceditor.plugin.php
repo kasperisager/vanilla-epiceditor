@@ -22,6 +22,11 @@ $PluginInfo['epiceditor'] = array(
  */
 class EpicEditorPlugin extends Gdn_Plugin
 {
+    /**
+     * Initialize EpicEditor
+     *
+     * @param Gdn_Form $sender
+     */
     public function Gdn_Form_beforeBodyBox_handler($sender)
     {
         // Make sure that Markdown is used
