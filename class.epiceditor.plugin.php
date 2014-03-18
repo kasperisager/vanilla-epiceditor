@@ -26,7 +26,9 @@ class EpicEditorPlugin extends Gdn_Plugin
     /**
      * Initialize EpicEditor
      *
-     * @param Gdn_Form $sender
+     * @since  1.0.0
+     * @access public
+     * @param  Gdn_Form $sender
      */
     public function Gdn_Form_beforeBodyBox_handler($sender)
     {
