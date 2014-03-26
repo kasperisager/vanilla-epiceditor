@@ -35,7 +35,7 @@ class EpicEditorPlugin extends Gdn_Plugin
         // Make sure that Markdown is used
         $sender->setValue('Format', 'Markdown');
 
-        // Remove jQuery Autogrow as it interfeers with the editor
+        // Remove jQuery Autogrow as it interferes with the editor
         Gdn::controller()->removeJsFile('jquery.autogrow.js');
 
         // Add the assets we need for the editor
