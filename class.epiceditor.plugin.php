@@ -39,6 +39,6 @@ class EpicEditorPlugin extends Gdn_Plugin
         Gdn::controller()->removeJsFile('jquery.autogrow.js');
 
         // Add the assets we need for the editor
-        Gdn::controller()->addJsFile('editor.min.js', 'plugins/epiceditor');
+        Gdn::controller()->addJsFile($this->getResource('js/editor.min.js', false, false));
     }
 }
