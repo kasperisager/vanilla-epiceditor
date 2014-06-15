@@ -47,7 +47,7 @@
     // Fire in the hole!
     editor.load(function () {
       // Hide the original textarea once the editor is loaded
-      $textarea.addClass('Hidden');
+      $textarea.hide().addClass('Hidden');
     });
   };
 

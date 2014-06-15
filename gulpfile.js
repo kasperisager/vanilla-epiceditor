@@ -3,7 +3,7 @@ var gulp       = require('gulp')
   , uglify     = require('gulp-uglify')
   , livereload = require('gulp-livereload');
 
-gulp.task('concat', function () {
+gulp.task('scripts', function () {
   gulp.src([
     // EpicEditor library
     'bower_components/epiceditor/src/editor.js'
