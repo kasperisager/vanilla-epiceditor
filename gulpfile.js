@@ -24,5 +24,5 @@ gulp.task('scripts', function () {
 });
 
 gulp.task('watch', function () {
-  gulp.watch(['js/**/*.js', '!js/editor.min.js'], ['concat']);
+  gulp.watch(['js/**/*.js', '!js/editor.min.js'], ['scripts']);
 });

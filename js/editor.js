@@ -46,6 +46,14 @@
 
     // Fire in the hole!
     editor.load(function () {
+      var iframe = $(editor.editorIframe)
+        , body   = $('body', iframe.contents());
+
+      // Initialize @mention autocomplete
+      if (gdn.atCompleteInit) {
+        gdn.atCompleteInit(body[0], iframe[0]);
+      }
+
       // Hide the original textarea once the editor is loaded
       $textarea.hide().addClass('Hidden');
     });
