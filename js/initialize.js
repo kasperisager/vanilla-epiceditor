@@ -13,7 +13,7 @@
 
   // Intialize the Editor plugin
   var editor = new Editor({
-    textarea: '.TextBox'
+    textarea: '.BodyBox'
   });
 
   // Attach event handlers
